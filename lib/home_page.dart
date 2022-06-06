@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:ibisa/drawer_menu.dart';
 import 'package:ibisa/email_pass.dart';
+import 'package:ibisa/kayit_ol.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -31,6 +32,18 @@ class HomePage extends StatelessWidget {
                     CupertinoPageRoute(builder: (context) => LoginPage()));
               },
               child: const Text('Giriş Yap'),
+            ),
+            const CupertinoButton(
+              onPressed: null,
+              child: Text(''),
+            ),
+            CupertinoButton.filled(
+              onPressed: () {
+                //Navigator.push(context, route);
+                Navigator.of(context)
+                    .push(CupertinoPageRoute(builder: (context) => KayitOl()));
+              },
+              child: const Text('Kayıt Ol'),
             ),
           ],
         ),

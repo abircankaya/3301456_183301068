@@ -1,10 +1,8 @@
-import 'dart:math';
-import 'dart:ui';
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:ibisa/ana_sayfa.dart';
+import 'package:ibisa/kayit_ol.dart';
 import 'package:ibisa/sifremi_unuttum.dart';
 import 'package:ibisa/text_widget.dart';
 import 'package:ibisa/text_widget_2.dart';
@@ -67,8 +65,15 @@ class _LoginPageState extends State<LoginPage> {
                           borderRadius: BorderRadius.all(Radius.circular(12)))),
                 ),
               ),
-              TextButton(
-                onPressed: createUserEmailAndPassword,
+              /* TextButton(
+                onPressed: () {
+                  {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) => KayitOl()),
+                    );
+                  }
+                },
                 child: Text(
                   "kayit ol",
                 ),
@@ -78,7 +83,7 @@ class _LoginPageState extends State<LoginPage> {
                     ),
                     shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.all(Radius.circular(12)))),
-              ),
+              ), */
               TextButton(
                 onPressed: () {
                   {

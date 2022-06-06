@@ -14,18 +14,14 @@ class drawer_menu extends StatelessWidget {
         padding: EdgeInsets.zero,
         children: [
           DrawerHeader(
-            child: Icon(
-              Icons.person,
-              size: 100,
-              color: Color.fromARGB(255, 0, 162, 199),
-            ),
+            child: Image.asset('assets/images/logo.png'),
           ),
           Padding(
             padding: const EdgeInsets.all(8.0),
             child: Container(
               child: ListTile(
                 title: const Text(
-                  'Hakkımda',
+                  'İletişim',
                   style: TextStyle(fontSize: 24),
                 ),
                 textColor: Color.fromARGB(255, 0, 162, 199),

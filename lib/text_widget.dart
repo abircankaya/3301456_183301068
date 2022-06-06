@@ -1,20 +1,20 @@
 import 'package:flutter/material.dart';
 
-class TextWidget1 extends StatefulWidget { 
-
+class TextWidget1 extends StatefulWidget {
   @override
   State<TextWidget1> createState() => _TextWidget1State();
 }
-    TextEditingController email = TextEditingController();
+
+TextEditingController email = TextEditingController();
+
 class _TextWidget1State extends State<TextWidget1> {
-
-
   @override
   Widget build(BuildContext context) {
     return TextFormField(
       controller: email,
       keyboardType: TextInputType.emailAddress,
       decoration: InputDecoration(
+        isDense: true,
         focusedBorder: OutlineInputBorder(
           borderSide: BorderSide(color: Color.fromARGB(255, 0, 162, 199)),
         ),

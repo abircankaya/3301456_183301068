@@ -17,7 +17,7 @@ class Hakkimda extends StatelessWidget {
             child: Center(
               child: InkWell(
                 onTap: () {
-                  _urlAc('mailto:183301068@ogr.selcuk.edu.tr');
+                  _urlAc('mailto:info@ibisa.com.tr');
                 },
                 child: Icon(
                   Icons.email,
@@ -30,7 +30,7 @@ class Hakkimda extends StatelessWidget {
           Padding(
             padding: EdgeInsets.all(8),
             child: Text(
-              "183301068@ogr.selcuk.edu.tr",
+              "info@ibisa.com.tr",
               style: TextStyle(
                   fontWeight: FontWeight.bold,
                   fontSize: 15,
@@ -49,14 +49,14 @@ class Hakkimda extends StatelessWidget {
                 color: Color.fromARGB(255, 0, 162, 199),
               ),
               onTap: () {
-                _urlAc('tel:+905518652667');
+                _urlAc('tel:+903325010156');
               },
             ),
           ),
           Padding(
             padding: EdgeInsets.all(8),
             child: Text(
-              "+90 551 865 26 67",
+              "+90 332 501 01 56",
               style: TextStyle(
                   fontWeight: FontWeight.bold,
                   fontSize: 15,
@@ -75,14 +75,14 @@ class Hakkimda extends StatelessWidget {
                 color: Color.fromARGB(255, 0, 162, 199),
               ),
               onTap: () {
-                _urlAc('tel:+905518652667');
+                _urlAc('tel:+905444264262');
               },
             ),
           ),
           Padding(
             padding: EdgeInsets.all(8),
             child: Text(
-              "+90 551 865 26 67",
+              "+90 544 426 42 62",
               style: TextStyle(
                   fontWeight: FontWeight.bold,
                   fontSize: 15,
@@ -101,14 +101,14 @@ class Hakkimda extends StatelessWidget {
                 color: Color.fromARGB(255, 0, 162, 199),
               ),
               onTap: () {
-                _urlAc('https://github.com/abircankaya');
+                _urlAc('https://www.ibisa.com.tr/');
               },
             ),
           ),
           Padding(
             padding: EdgeInsets.all(8),
             child: Text(
-              "github.com/abircankaya",
+              "ibisa.com.tr",
               style: TextStyle(
                   fontWeight: FontWeight.bold,
                   fontSize: 15,

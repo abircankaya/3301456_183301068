@@ -6,7 +6,9 @@ class TextWidget2 extends StatefulWidget {
   @override
   State<TextWidget2> createState() => _TextWidget2State();
 }
-    TextEditingController sifre = TextEditingController();
+
+TextEditingController sifre = TextEditingController();
+
 class _TextWidget2State extends State<TextWidget2> {
   bool showPassword = true;
 
@@ -37,6 +39,7 @@ class _TextWidget2State extends State<TextWidget2> {
       // obscureText: true,
       obscureText: showPassword,
       decoration: InputDecoration(
+        isDense: true,
         focusedBorder: OutlineInputBorder(
           borderSide: BorderSide(color: Color.fromARGB(255, 0, 162, 199)),
         ),
